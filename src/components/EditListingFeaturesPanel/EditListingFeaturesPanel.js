@@ -41,8 +41,8 @@ const EditListingFeaturesPanel = props => {
     <FormattedMessage id="EditListingFeaturesPanel.createListingTitle" />
   );
 
-  const amenities = publicData && publicData.amenities;
-  const initialValues = { amenities };
+  const supplies = publicData && publicData.supplies;
+  const initialValues = { supplies };
 
   return (
     <div className={classes}>
@@ -52,7 +52,7 @@ const EditListingFeaturesPanel = props => {
         name={FEATURES_NAME}
         initialValues={initialValues}
         onSubmit={values => {
-          const { amenities = [] } = values;
+          const { supplies = [] } = values;
 
           const updatedValues = {
             publicData: { amenities },
