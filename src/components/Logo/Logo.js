@@ -17,8 +17,7 @@ const Logo = props => {
     <img
       className={classes}
       src={logoImage}
-      alt={config.siteTitle} {...rest} />;
-};
+      alt={config.siteTitle}>
 
 const { oneOf, string } = PropTypes;
 
