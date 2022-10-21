@@ -1,10 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { oneOf, string } from 'prop-types';
 import classNames from 'classnames';
 
 import config from '../../config';
 import MobileLogoImage from './snapshopz-small.png';
-import LogoImage from './snapshopz.png';
+import DesktopLogoImage from './snapshopz.png';
 import css from './Logo.module.css';
 
 const Logo = props => {
@@ -17,9 +17,11 @@ const Logo = props => {
     <img
       className={classes}
       src={logoImage}
-      alt={config.siteTitle}>
-
-const { oneOf, string } = PropTypes;
+      alt={config.siteTitle}
+      {...rest}
+    />
+  );
+};
 
 Logo.defaultProps = {
   className: null,
