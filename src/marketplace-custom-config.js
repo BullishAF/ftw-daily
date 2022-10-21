@@ -85,19 +85,18 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'smoke', label: 'Smoke' },
-        { key: 'electric', label: 'Electric' },
-        { key: 'wood', label: 'Wood' },
-        { key: 'other', label: 'Other' },
+        { key: 'retail', label: 'Retail' },
+        { key: 'food', label: 'Food' },
+        { key: 'kiosk', label: 'Kiosk' },
       ],
     },
   },
   {
-    id: 'amenities',
-    label: 'Amenities',
+    id: 'supplies',
+    label: 'Supplies',
     type: 'SelectMultipleFilter',
     group: 'secondary',
-    queryParamNames: ['pub_amenities'],
+    queryParamNames: ['pub_supplies'],
     config: {
       // Optional modes: 'has_all', 'has_any'
       // https://www.sharetribe.com/api-reference/marketplace.html#extended-data-filtering
@@ -109,36 +108,16 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         {
-          key: 'towels',
-          label: 'Towels',
+          key: 'clothes racks',
+          label: 'Clothes Rack',
         },
         {
-          key: 'bathroom',
-          label: 'Bathroom',
+          key: 'shelves',
+          label: 'Shelves',
         },
         {
-          key: 'swimming_pool',
-          label: 'Swimming pool',
-        },
-        {
-          key: 'own_drinks',
-          label: 'Own drinks allowed',
-        },
-        {
-          key: 'jacuzzi',
-          label: 'Jacuzzi',
-        },
-        {
-          key: 'audiovisual_entertainment',
-          label: 'Audiovisual entertainment',
-        },
-        {
-          key: 'barbeque',
-          label: 'Barbeque',
-        },
-        {
-          key: 'own_food_allowed',
-          label: 'Own food allowed',
+          key: 'display',
+          label: 'Display',
         },
       ],
     },

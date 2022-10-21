@@ -707,36 +707,36 @@ at https://stripe.com/global
 //       owners: true,
 //     },
 //   },
-//   {
-//     // United States
-//     code: 'US',
-//     currency: 'USD',
-//     addressConfig: {
+// {
+//      United States
+//       code: 'US',
+//       currency: 'USD',
+//       addressConfig: {
 //       addressLine: true,
 //       city: true,
 //       postalCode: true,
 //       stateUS: true,
+ //     },
+ //     accountConfig: {
+ //        routingNumber: true,
+ //        accountNumber: true,
+ //     },
+ //     companyConfig: {
+ //        businessURL: true,
+ //        companyPhone: true,
+  //       mccForUS: true,
+   //      owners: true,
+  //       personalAddress: true,
+  //       personalEmail: true,
+  //       personalPhone: true,
+  //       ssnLast4Required: true,
+  //     },
+  //       individualConfig: {
+  //       businessURL: true,
+ //        mccForUS: true,
+  //       ssnLast4Required: true,
+  //       personalEmail: true,
+ //        personalPhone: true,
+ //      },
 //     },
-//     accountConfig: {
-//       routingNumber: true,
-//       accountNumber: true,
-//     },
-//     companyConfig: {
-//       businessURL: true,
-//       companyPhone: true,
-//       mccForUS: true,
-//       owners: true,
-//       personalAddress: true,
-//       personalEmail: true,
-//       personalPhone: true,
-//       ssnLast4Required: true,
-//     },
-//     individualConfig: {
-//       businessURL: true,
-//       mccForUS: true,
-//       ssnLast4Required: true,
-//       personalEmail: true,
-//       personalPhone: true,
-//     },
-//   },
-// ];
+//];

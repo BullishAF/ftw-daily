@@ -51,7 +51,7 @@ const bookingProcessAlias = 'flex-default-process/release-1';
 //
 // Note 2: Translations will use different translation keys for night, day or unit
 //         depending on the value chosen.
-const bookingUnitType = 'line-item/night';
+const bookingUnitType = 'line-item/day';
 
 // Should the application fetch available time slots (currently defined as
 // start and end dates) to be shown on listing page.
@@ -92,7 +92,7 @@ const sentryDsn = process.env.REACT_APP_SENTRY_DSN;
 const usingSSL = process.env.REACT_APP_SHARETRIBE_USING_SSL === 'true';
 
 // Address information is used in SEO schema for Organization (http://schema.org/PostalAddress)
-const addressCountry = 'FI';
+const addressCountry = 'US';
 const addressRegion = 'Helsinki';
 const postalCode = '00100';
 const streetAddress = 'Bulevardi 14';
@@ -101,16 +101,16 @@ const streetAddress = 'Bulevardi 14';
 const canonicalRootURL = process.env.REACT_APP_CANONICAL_ROOT_URL;
 
 // Site title is needed in meta tags (bots and social media sharing reads those)
-const siteTitle = 'Saunatime';
+const siteTitle = 'SnapShopz';
 
 // Twitter handle is needed in meta tags (twitter:site). Start it with '@' character
-const siteTwitterHandle = '@sharetribe';
+const siteTwitterHandle = null;
 
 // Instagram page is used in SEO schema (http://schema.org/Organization)
 const siteInstagramPage = null;
 
 // Facebook page is used in SEO schema (http://schema.org/Organization)
-const siteFacebookPage = 'https://www.facebook.com/Sharetribe/';
+const siteFacebookPage = 'https://www.facebook.com';
 
 // Social logins & SSO
 

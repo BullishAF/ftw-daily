@@ -73,7 +73,7 @@
 }
 
 .heroSubTitle {
-  composes: h4 from global;
+  composes: h3 from global;
 
   color: var(--matterColorLight);
   margin: 0 0 32px 0;
